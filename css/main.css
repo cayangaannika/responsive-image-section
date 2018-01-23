@@ -4,6 +4,10 @@ html {
   line-height: 1.4;
 }
 
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
 body {
   display: inline-block;
   font-family: sans-serif;
@@ -47,6 +51,11 @@ a {
   border-radius: 4px;
   margin-bottom: 1rem;
   text-align: center;
+  text-decoration: none;
+}
+
+a:hover {
+  background-color: #000;
 }
 
 @-moz-viewport { width: device-width; scale: 1; }
