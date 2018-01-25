@@ -1,3 +1,9 @@
+@-moz-viewport { width: device-width; scale: 1; }
+@-ms-viewport { width: device-width; scale: 1; }
+@-o-viewport { width: device-width; scale: 1; }
+@-webkit-viewport { width: device-width; scale: 1; }
+@viewport { width: device-width; scale: 1; }
+
 html {
   font-family: 'Open Sans', sans-serif;
   box-sizing: border-box;
@@ -46,12 +52,6 @@ section {
   width: 100%;
 }
 
-@-moz-viewport { width: device-width; scale: 1; }
-@-ms-viewport { width: device-width; scale: 1; }
-@-o-viewport { width: device-width; scale: 1; }
-@-webkit-viewport { width: device-width; scale: 1; }
-@viewport { width: device-width; scale: 1; }
-
 @media only screen and (min-width: 25em) {
 
   html {
@@ -89,9 +89,10 @@ section {
     margin-bottom: 1.9em;
   }
 
-  strong {
+  .sub {
     margin: 0;
   }
+
 }
 
 @media only screen and (min-width: 60em) {
@@ -106,6 +107,7 @@ section {
 
   html {
     font-size: 130%;
+    line-height: 1.5;
   }
 
   .text {
