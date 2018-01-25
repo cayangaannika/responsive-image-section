@@ -5,7 +5,7 @@
 @viewport { width: device-width; scale: 1; }
 
 html {
-  font-family: 'Open Sans', sans-serif;
+  font-family: sans-serif;
   box-sizing: border-box;
   }
 
@@ -74,20 +74,26 @@ section {
 
   .info {
     display: inline-block;
-    width: 49%;
-    padding: 1rem;
+    width: 48%;
+    /* padding: 1rem; */
+    max-width: 25em;
+  }
+
+  h1 {
+    padding-top: 1.5rem;
   }
 
   .img-div {
     display: inline-block;
-    width: 49%;
-    padding: 0;
-    margin: 0;
-  }
+    max-width: 25em;
+    width: 50%;
 
+  }
+/*
   .img-flex {
     margin-bottom: 1.9em;
   }
+  */
 
   .sub {
     margin: 0;
@@ -100,6 +106,20 @@ section {
   html {
     font-size: 120%;
     line-height: 1.5;
+  }
+
+  h1 {
+    margin: 0;
+  }
+
+  .info {
+    margin: 0;
+  }
+
+  .img-div {
+    width: 48%;
+    margin-top: 1.9rem;
+    margin-left: 0;
   }
 }
 
